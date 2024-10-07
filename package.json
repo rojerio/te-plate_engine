@@ -1,0 +1,20 @@
+{
+  "name": "template_engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js localhost 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "exphbs": "^1.2.0",
+    "nodemon": "^3.1.7"
+  }
+}
